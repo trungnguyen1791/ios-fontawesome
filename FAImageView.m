@@ -80,7 +80,7 @@
 - (void)setDefaultIcon:(FAIcon)defaultIcon
 {
     _defaultIcon = defaultIcon;
-    _defaultView.text = [NSString fontAwesomeIconStringForEnum:defaultIcon];
+    self.defaultView.text = [NSString fontAwesomeIconStringForEnum:defaultIcon];
 }
 
 @end

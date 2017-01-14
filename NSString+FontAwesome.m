@@ -57,7 +57,16 @@
             /* Font Awesome ver 4.30 */
             @"\uf236", @"\uf20d", @"\uf218", @"\uf217", @"\uf20e", @"\uf210", @"\uf219", @"\uf230", @"\uf211", @"\uf21e", @"\uf236", @"\uf212", @"\uf222", @"\uf227", @"\uf229", @"\uf22b", @"\uf22a", @"\uf23a", @"\uf223", @"\uf21c", @"\uf22c", @"\uf231", @"\uf213", @"\uf233", @"\uf21a", @"\uf214", @"\uf215", @"\uf216", @"\uf21d", @"\uf239", @"\uf238", @"\uf224", @"\uf225", @"\uf234", @"\uf21b", @"\uf235", @"\uf221", @"\uf226", @"\uf228", @"\uf237",
             /* Font Awesome ver 4.40 */
-            @"\uf26e", @"\uf270", @"\uf24e", @"\uf244", @"\uf240", @"\uf242", @"\uf243", @"\uf241", @"\uf27e", @"\uf274", @"\uf272", @"\uf271", @"\uf273", @"\uf24c", @"\uf24b", @"\uf268", @"\uf24d", @"\uf27a", @"\uf27b", @"\uf26d", @"\uf25e", @"\uf23e", @"\uf269", @"\uf280", @"\uf22d", @"\uf265", @"\uf260", @"\uf261", @"\uf258", @"\uf256", @"\uf25b", @"\uf25a", @"\uf255", @"\uf257", @"\uf259", @"\uf254", @"\uf253", @"\uf252", @"\uf250", @"\uf251", @"\uf27c", @"\uf246", @"\uf275", @"\uf26b", @"\uf279", @"\uf278", @"\uf276", @"\uf277", @"\uf245", @"\uf247", @"\uf248", @"\uf263", @"\uf264", @"\uf23d", @"\uf26a", @"\uf23c", @"\uf25d", @"\uf267", @"\uf249", @"\uf24a", @"\uf26c", @"\uf25c", @"\uf262", @"\uf27d", @"\uf266", @"\uf23b"];
+            @"\uf26e", @"\uf270", @"\uf24e", @"\uf244", @"\uf240", @"\uf242", @"\uf243", @"\uf241", @"\uf27e", @"\uf274", @"\uf272", @"\uf271", @"\uf273", @"\uf24c", @"\uf24b", @"\uf268", @"\uf24d", @"\uf27a", @"\uf27b", @"\uf26d", @"\uf25e", @"\uf23e", @"\uf269", @"\uf280", @"\uf22d", @"\uf265", @"\uf260", @"\uf261", @"\uf258", @"\uf256", @"\uf25b", @"\uf25a", @"\uf255", @"\uf257", @"\uf259", @"\uf254", @"\uf253", @"\uf252", @"\uf250", @"\uf251", @"\uf27c", @"\uf246", @"\uf275", @"\uf26b", @"\uf279", @"\uf278", @"\uf276", @"\uf277", @"\uf245", @"\uf247", @"\uf248", @"\uf263", @"\uf264", @"\uf23d", @"\uf26a", @"\uf23c", @"\uf25d", @"\uf267", @"\uf249", @"\uf24a", @"\uf26c", @"\uf25c", @"\uf262", @"\uf27d", @"\uf266", @"\uf23b",
+                                          
+            /* Font Awesome ver 4.50 */
+            @"\uf281", @"\uf282", @"\uf283", @"\uf284", @"\uf285", @"\uf286", @"\uf287", @"\uf288", @"\uf289", @"\uf28a", @"\uf28b", @"\uf28c", @"\uf28d", @"\uf28e", @"\uf290", @"\uf291", @"\uf292", @"\uf293", @"\uf294", @"\uf295",
+            
+            /* Font Awesome ver 4.60 */
+            @"\uf296", @"\uf297", @"\uf298", @"\uf299", @"\uf29a", @"\uf29b", @"\uf29c", @"\uf29d", @"\uf29e", @"\uf2a0", @"\uf2a1", @"\uf2a2", @"\uf2a3", @"\uf2a4", @"\uf2a5", @"\uf2a6", @"\uf2a7", @"\uf2a8", @"\uf2a9", @"\uf2aa", @"\uf2ab", @"\uf2ac", @"\uf2ad", @"\uf2ae", @"\uf2b0", @"\uf2b1", @"\uf2b2", @"\uf2b3", @"\uf2b4",
+                                          
+            /* Font Awesome ver 4.70 */
+            @"\uf2b9", @"\uf2ba", @"\uf2bb", @"\uf2bc", @"\uf2d5", @"\uf2cd", @"\uf2da", @"\uf2b6", @"\uf2b7", @"\uf2d7", @"\uf2c5", @"\uf2d6", @"\uf2b5", @"\uf2c1", @"\uf2c2", @"\uf2c3", @"\uf2d8", @"\uf2b8", @"\uf2e0", @"\uf2db", @"\uf2ce", @"\uf2c4", @"\uf2d9", @"\uf2cc", @"\uf2dc", @"\uf2dd", @"\uf2c6", @"\uf2cb", @"\uf2c7", @"\uf2c9", @"\uf2ca", @"\uf2c8", @"\uf2bd", @"\uf2be", @"\uf2c0", @"\uf2d3", @"\uf2d4", @"\uf2d0", @"\uf2d1", @"\uf2d2", @"\uf2de"];
 
     });
     
@@ -689,6 +698,102 @@
         tmp[@"fa-vimeo"]                = @(FAvimeo);
         tmp[@"fa-wikipedia-w"]          = @(FAwikipediaW);
         tmp[@"fa-y-combinator"]         = @(FAyCombinator);
+        
+        /* Font Awesome ver 4.50 */
+        tmp[@"fa-reddit-alien"]         = @(FARedditAlien);
+        tmp[@"fa-edge"]                 = @(FAEdge);
+        tmp[@"fa-credit-card-alt"]      = @(FACreditCardAlt);
+        tmp[@"fa-codiepie"]             = @(FACodiepie);
+        tmp[@"fa-modx"]                 = @(FAModx);
+        tmp[@"fa-fort-awesome"]         = @(FAFortAwesome);
+        tmp[@"fa-usb"]                  = @(FAUsb);
+        tmp[@"fa-product-hunt"]         = @(FAProductHunt);
+        tmp[@"fa-mix-cloud"]            = @(FAMixCloud);
+        tmp[@"fa-scribd"]               = @(FAScribd);
+        tmp[@"fa-pause-circle"]         = @(FAPauseCircle);
+        tmp[@"fa-pause-circle-o"]       = @(FAPauseCircleO);
+        tmp[@"fa-stop-circle"]          = @(FAStopCircle);
+        tmp[@"fa-stop-circle-o"]        = @(FAStopCircleO);
+        tmp[@"fa-shopping-bag"]         = @(FAShoppingBag);
+        tmp[@"fa-shopping-basket"]      = @(FAShoppingBasket);
+        tmp[@"fa-hashtag"]              = @(FAHashtag);
+        tmp[@"fa-bluetooth"]            = @(FABluetooth);
+        tmp[@"fa-bluetooth-b"]          = @(FABluetoothB);
+        tmp[@"fa-percent"]              = @(FAPercent);
+
+        /* Font Awesome ver 4.60 */
+        tmp[@"fa-gitlab"]               = @(FAGitlab);
+        tmp[@"fa-wpbeginner"]           = @(FAWpbeginner);
+        tmp[@"fa-wpforms"]              = @(FAWpforms);
+        tmp[@"fa-envira"]               = @(FAEnvira);
+        tmp[@"fa-universal-access"]     = @(FAUniversalAccess);
+        tmp[@"fa-wheelchair-alt"]       = @(FAWheelchairAlt);
+        tmp[@"fa-question-circle-o"]    = @(FAQuestionCircleO);
+        tmp[@"fa-blind"]                = @(FABlind);
+        tmp[@"fa-audio-description"]    = @(FAAudioDescription);
+        tmp[@"fa-volume-control-phone"] = @(FAVolumeControlPhone);
+        tmp[@"fa-braille"]              = @(FABraille);
+        tmp[@"fa-assistive-listening-systems"] = @(FAAssistiveListeningSystems);
+        tmp[@"fa-american-sign-language-interpreting"] = @(FAAmericanSignLanguageInterpreting);
+        tmp[@"fa-deaf"]                 = @(FADeaf);
+        tmp[@"fa-glide"]                = @(FAGlide);
+        tmp[@"fa-glide-g"]              = @(FAGlideG);
+        tmp[@"fa-sign-language"]        = @(FASignLanguage);
+        tmp[@"fa-low-vision"]           = @(FALowVision);
+        tmp[@"fa-viadeo"]               = @(FAViadeo);
+        tmp[@"fa-viadeo-square"]        = @(FAViadeoSquare);
+        tmp[@"fa-snapchat"]             = @(FASnapchat);
+        tmp[@"fa-snapchat-ghost"]       = @(FASnapchatGhost);
+        tmp[@"fa-snapchat-square"]      = @(FASnapchatSquare);
+        tmp[@"fa-pied-piper"]           = @(FAPiedPiper);
+        tmp[@"fa-first-order"]          = @(FAFirstOrder);
+        tmp[@"fa-yoast"]                = @(FAYoast);
+        tmp[@"fa-themeisle"]            = @(FAThemeisle);
+        tmp[@"fa-google-plus-official"]  = @(FAGooglePlusOfficial);
+        tmp[@"fa-font-awesome"]         = @(FAFontAwesome);
+        
+        /* Font Awesome ver 4.70 */
+        tmp[@"fa-address-book"]         = @(FAAddressBook);
+        tmp[@"fa-address-book-o"]       = @(FAAddressBookO);
+        tmp[@"fa-address-card"]         = @(FAAddressCard);
+        tmp[@"fa-address-card-o"]       = @(FAAddressCardO);
+        tmp[@"fa-band-camp"]            = @(FABandCamp);
+        tmp[@"fa-bath"]                 = @(FABath);
+        tmp[@"fa-eercast"]              = @(FAEercast);
+        tmp[@"fa-envelope-open"]        = @(FAEnvelopeOpen);
+        tmp[@"fa-envelope-open-o"]      = @(FAEnvelopeOpenO);
+        tmp[@"fa-etsy"]                 = @(FAEtsy);
+        tmp[@"fa-free-code-camp"]       = @(FAFreeCodeCamp);
+        tmp[@"fa-grav"]                 = @(FAGrav);
+        tmp[@"fa-handshake-o"]          = @(FAHandshakeO);
+        tmp[@"fa-id-badge"]             = @(FAIdBadge);
+        tmp[@"fa-id-card"]              = @(FAIdCard);
+        tmp[@"fa-id-card-o"]            = @(FAIdCardO);
+        tmp[@"fa-imdb"]                 = @(FAImdb);
+        tmp[@"fa-linode"]               = @(FALinode);
+        tmp[@"fa-meetup"]               = @(FAMeetup);
+        tmp[@"fa-microchip"]            = @(FAMicrochip);
+        tmp[@"fa-podcast"]              = @(FAPodcast);
+        tmp[@"fa-quora"]                = @(FAQuora);
+        tmp[@"fa-ravelry"]              = @(FARavelry);
+        tmp[@"fa-shower"]               = @(FAShower);
+        tmp[@"fa-snowflake-o"]          = @(FASnowflakeO);
+        tmp[@"fa-superpowers"]          = @(FASuperpowers);
+        tmp[@"fa-telegram"]             = @(FATelegram);
+        tmp[@"fa-thermometer-empty"]    = @(FAThermometerEmpty);
+        tmp[@"fa-thermometer-full"]     = @(FAThermometerFull);
+        tmp[@"fa-thermometer-half"]     = @(FAThermometerHalf);
+        tmp[@"fa-thermometer-quarter"]  = @(FAThermometerQuarter);
+        tmp[@"fa-thermometer-three-quarters"] = @(FAThermometerThreeQuarters);
+        tmp[@"fa-user-circle"]          = @(FAUserCircle);
+        tmp[@"fa-user-circle-o"]        = @(FAUserCircleO);
+        tmp[@"fa-user-o"]               = @(FAUserO);
+        tmp[@"fa-window-close"]         = @(FAWindowClose);
+        tmp[@"fa-window-close-o"]       = @(FAWindowCloseO);
+        tmp[@"fa-window-maximize"]      = @(FAWindowMaximize);
+        tmp[@"fa-window-minimize"]      = @(FAWindowMinimize);
+        tmp[@"fa-window-restore"]       = @(FAWindowRestore);
+        tmp[@"fa-wpexplorer"]           = @(FAWpexplorer);
         
 		enumDictionary = tmp;
 	});
