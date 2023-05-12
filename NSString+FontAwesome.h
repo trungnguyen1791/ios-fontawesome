@@ -741,7 +741,11 @@ typedef NS_ENUM(NSInteger, FAIcon) {
     FAWindowMaximize,
     FAWindowMinimize,
     FAWindowRestore,
-    FAWpexplorer
+    FAWpexplorer,
+    
+    /* FontAwesome ver 4.3.0 missing*/
+    FAWhatsapp
+    
 };
 
 
