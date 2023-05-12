@@ -66,7 +66,10 @@
             @"\uf296", @"\uf297", @"\uf298", @"\uf299", @"\uf29a", @"\uf29b", @"\uf29c", @"\uf29d", @"\uf29e", @"\uf2a0", @"\uf2a1", @"\uf2a2", @"\uf2a3", @"\uf2a4", @"\uf2a5", @"\uf2a6", @"\uf2a7", @"\uf2a8", @"\uf2a9", @"\uf2aa", @"\uf2ab", @"\uf2ac", @"\uf2ad", @"\uf2ae", @"\uf2b0", @"\uf2b1", @"\uf2b2", @"\uf2b3", @"\uf2b4",
                                           
             /* Font Awesome ver 4.70 */
-            @"\uf2b9", @"\uf2ba", @"\uf2bb", @"\uf2bc", @"\uf2d5", @"\uf2cd", @"\uf2da", @"\uf2b6", @"\uf2b7", @"\uf2d7", @"\uf2c5", @"\uf2d6", @"\uf2b5", @"\uf2c1", @"\uf2c2", @"\uf2c3", @"\uf2d8", @"\uf2b8", @"\uf2e0", @"\uf2db", @"\uf2ce", @"\uf2c4", @"\uf2d9", @"\uf2cc", @"\uf2dc", @"\uf2dd", @"\uf2c6", @"\uf2cb", @"\uf2c7", @"\uf2c9", @"\uf2ca", @"\uf2c8", @"\uf2bd", @"\uf2be", @"\uf2c0", @"\uf2d3", @"\uf2d4", @"\uf2d0", @"\uf2d1", @"\uf2d2", @"\uf2de"];
+            @"\uf2b9", @"\uf2ba", @"\uf2bb", @"\uf2bc", @"\uf2d5", @"\uf2cd", @"\uf2da", @"\uf2b6", @"\uf2b7", @"\uf2d7", @"\uf2c5", @"\uf2d6", @"\uf2b5", @"\uf2c1", @"\uf2c2", @"\uf2c3", @"\uf2d8", @"\uf2b8", @"\uf2e0", @"\uf2db", @"\uf2ce", @"\uf2c4", @"\uf2d9", @"\uf2cc", @"\uf2dc", @"\uf2dd", @"\uf2c6", @"\uf2cb", @"\uf2c7", @"\uf2c9", @"\uf2ca", @"\uf2c8", @"\uf2bd", @"\uf2be", @"\uf2c0", @"\uf2d3", @"\uf2d4", @"\uf2d0", @"\uf2d1", @"\uf2d2", @"\uf2de",
+                                          
+        /* FontAwesome ver 4.7.0 */
+            @"\uf232"];
 
     });
     
@@ -794,6 +797,7 @@
         tmp[@"fa-window-minimize"]      = @(FAWindowMinimize);
         tmp[@"fa-window-restore"]       = @(FAWindowRestore);
         tmp[@"fa-wpexplorer"]           = @(FAWpexplorer);
+        tmp[@"fa-whatsapp"]             = @(FAWhatsapp);
         
 		enumDictionary = tmp;
 	});
